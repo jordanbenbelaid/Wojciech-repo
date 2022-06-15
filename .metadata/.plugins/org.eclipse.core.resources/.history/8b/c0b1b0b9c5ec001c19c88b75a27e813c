@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		List<String> fish = new ArrayList();
+
+		System.out.println(fish.size());
+		
+		fish.add("Goldfish");
+		fish.add("Cod");
+		fish.add("Salmon");
+		
+		System.out.println(fish.size());
+		
+		for (int i = fish.size() - 1; i < fish.size() ; i--) {
+			System.out.println(fish.get(i));
+		}
+		
+		
+		
+	}
+
+}

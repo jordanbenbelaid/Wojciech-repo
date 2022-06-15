@@ -1,0 +1,26 @@
+
+public class Animal {
+
+	//Attributes
+	private String species;
+	private int legs;
+	private boolean isWarmBlooded;
+	
+	//Constructor/s
+	//constructor with nothing
+	public Animal() {	}
+	
+	//constructor with everything
+	public Animal(String species, int legs, boolean isWarmBlooded) {
+		super();
+		this.species = species;
+		this.legs = legs;
+		this.isWarmBlooded = isWarmBlooded;
+	}
+	
+
+	//Getters and setters
+	
+	//ToString
+	
+}
